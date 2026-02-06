@@ -8,7 +8,7 @@ let b = 4;
 // console.log("a * b = ",a * b)                  it is a basic operation to perform the task.
 // console .log("a / b = ", a/b)
 // console.log("a % b = ", a % b)    module is know as the reminder
-// console.log("a**b= ", a**b)
+// console.log("a**b= ", a**b)  // power 4*4*4*4
 
 
 
