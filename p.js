@@ -33,18 +33,41 @@ switch (age) {
 }
 */
 // Problem No 3
-/*
+
 let num = prompt("What is your age?")
 num = Number.parseInt(num)
 if (num % 2 == 0 && num % 3 == 0) {
-  console.log("Your number is divisible by 2 and 3")
+  console.log("Your number is divisible by 2 and 3")    // it work on browser only ..because promptfuncation has used in it..
 }
 else {
   console.log("Your number is not divisible by 2 and 3")
 }
-*/
+
 
 // Problem No 5 tenery operater
-let age = 19
-let a = age > 18 ? "You can drive" : "You cannot drive"
-console.log(a)
+// let age = 19
+// let a = age > 18 ? "You can drive" : "You cannot drive"
+// console.log(a)
+
+
+
+
+// swicth statment where  it have define a multiple stament...
+
+let num1 =  prompt("what is your age")
+ switch(num1) {
+   case'12':
+    console.log("you age is suitable for it ")
+    break
+   case '13' :
+    console.log("your age is suitable ")
+    break
+    case '14' :
+      console.log("it is sutaiable of it")
+     break
+
+     default :
+     console.log("nothing be special")
+
+
+ }
